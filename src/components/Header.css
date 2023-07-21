@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 74px;
+  background-color: white;
+  width: 100%;
+  overflow: auto;
+  position: fixed;
+  box-shadow: 0 0 2px 0 #000000;
+  padding: 12px 120px 12px 120px;
+  gap: 66px;
+}
+.resources {
+  outline: none;
+  border: none;
+  color: #545454;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  gap: 5px;
+  text-decoration: none;
+}
+.nav-items > ul,
+li,
+button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  gap: 10px;
+  color: #545454;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.links {
+  color: #545454;
+  font-size: 12px;
+}
+.logo {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-left: 30px;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #545454;
+  margin-right: 35px;
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 6px;
+  border: 1px solid #4ead1f;
+  padding: 8px 24px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  background-color: #4ead1f;
+  width: 70px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  margin-right: 10px;
+  font-family: "Noto Sans", sans-serif;
+}

@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 96px 120px;
+  gap: 56px;
+  background-color: white;
+  background-repeat: no-repeat;
+  zoom: 96%;
+}
+.sign_up_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+h {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #545454;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 70;
+  line-height: normal;
+}
+.top_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 15px;
+  width: 410px;
+}
+.name_email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 36px;
+}
+.user_pass {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 48px;
+}
+.name {
+  display: flex;
+  height: 30px;
+  width: 300px;
+}
+.email {
+  display: flex;
+  height: 30px;
+  width: 300px;
+}
+.user_name {
+  display: flex;
+  height: 30px;
+  width: 300px;
+}
+.password {
+  display: flex;
+  height: 30px;
+  width: 300px;
+}
+.sign_up_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+  border-radius: 6px;
+  background: #4ead1f;
+  color: white;
+  width: 46.5vw;
+  height: 30px;
+  padding: 18px 20px;
+}
+.other_signUp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-bottom: 48px;
+  gap: 20px;
+}
+.google_sign_up_btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 310px;
+  height: 30px;
+  border-radius: 8px;
+}
+.facebook_sign_up_btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 310px;
+  height: 30px;
+  border-radius: 8px;
+}
+p {
+  text-align: center;
+}
+.go_to_signIn {
+  margin-top: 48px;
+}
+img {
+  width: 360px;
+  height: 240px;
+}

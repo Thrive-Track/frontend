@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 96px 120px;
+  background-color: white;
+  background-repeat: no-repeat;
+  zoom: 97%;
+}
+.sign_in_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.title1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+  color: #545454;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 70;
+  line-height: normal;
+}
+.pass_email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-bottom: 48px;
+  gap: 20px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 300px;
+  height: 30px;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 300px;
+  height: 30px;
+}
+.sign_in_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 36px;
+  border-radius: 6px;
+  background: #4ead1f;
+  color: white;
+  width: 46.5vw;
+  height: 30px;
+  padding: 18px 20px;
+}
+.other_signIn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px;
+}
+.google_sign_in_btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 30px;
+  width: 310px;
+  border-radius: 8px;
+  background-color: white;
+}
+.facebook_sign_in_btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 310px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: white;
+}
+p {
+  text-align: center;
+}
+.go_to_sign_up {
+  margin-top: 48px;
+}
+img {
+  width: 480px;
+  height: 420px;
+}

@@ -12,7 +12,7 @@ function Header() {
           <nav className="nav-items">
             <ul className="nav_list">
               <li>
-                <Link to="/home" className="links">
+                <Link to="/home" className="links home">
                   Home
                 </Link>
               </li>
@@ -36,8 +36,10 @@ function Header() {
                 </select>
               </li>
             </ul>
-            <button className="login">Log In</button>
-            <button className="signup">Get Started</button>
+            <div className="login_signup_btn">
+              <button className="login">Log In</button>
+              <button className="signup">Sign Up</button>
+            </div>
           </nav>
         </div>
       </div>

@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <div className="footer_background">
-        <img src="Frame 62.png" className="footer_image" />
+        <img src="Logo.png" className="footer_image" />
         <div className="footer_text">
           <div className="footer_features footer">
             <ul>
@@ -48,11 +48,11 @@ function Footer() {
             </ul>
           </div>
           <div className="social_media">
-            <img src="LikedIn.png" />
-            <img src="Union (1).png" />
-            <img src="twitter.png" />
-            <img src="medium.png" />
-            <img src="discord.png" />
+            <img src="facebook.png" />
+            <img src="linkedin (2).png" />
+            <img src="twitter (2).png" />
+            <img src="instagram.png" />
+            <img src="discord (2).png" />
           </div>
         </div>
       </div>

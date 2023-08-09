@@ -46,11 +46,11 @@ function CreatePassword() {
             >
               {({ isSubmitting }) => (
                 <Form>
+                  <ErrorMessage name="newPassword" component="div" className="error_message0" />
                   <Field type="password" name="newPassword" placeholder="Create New Password" className="password" />
-                  <ErrorMessage name="newPassword" component="div" className="error_message" />
 
-                  <Field type="password" name="confirmPassword" placeholder="Confirm New Password" className="confirm_password" />
                   <ErrorMessage name="confirmPassword" component="div" className="error_message" />
+                  <Field type="password" name="confirmPassword" placeholder="Confirm New Password" className="confirm_password" />
 
                   <button type="submit" disabled={isSubmitting} className="change_password">Change Password</button>
                 </Form>

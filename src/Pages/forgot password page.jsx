@@ -35,8 +35,8 @@ function ForgotPassword() {
             >
               {({ isSubmitting }) => (
                 <Form>
-                  <Field type="email" name="email" placeholder="Email" className="email" />
                   <ErrorMessage name="email" component="div" className="error_message" />
+                  <Field type="email" name="email" placeholder="Email" className="email" />
 
                   <button type="submit" disabled={isSubmitting} className="sendCode_Btn">Send Code</button>
                 </Form>

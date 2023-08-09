@@ -36,8 +36,8 @@ function Passrecover() {
           >
             {({ isSubmitting }) => (
               <Form>
-                <Field type="number" name="verificationCode" placeholder="Verification Code" className="verify_code" />
                 <ErrorMessage name="verificationCode" component="div" className="error_message" />
+                <Field type="number" name="verificationCode" placeholder="Verification Code" className="verify_code" />
 
                 <button type="submit" disabled={isSubmitting} className="next_btn">Next</button>
               </Form>

@@ -51,18 +51,18 @@ function Signup() {
                             {({ isSubmitting }) => (
                                 <Form>
                                     <div className='name_email'>
-                                        <Field type='text' name='name' placeholder='Name' className='name' />
                                         <ErrorMessage name='name' component='div' className='error_message' />
+                                        <Field type='text' name='name' placeholder='Name' className='name' />
 
-                                        <Field type='email' name='email' placeholder='Email' className='email' />
                                         <ErrorMessage name='email' component='div' className='error_message' />
+                                        <Field type='email' name='email' placeholder='Email' className='email' />
                                     </div>
                                     <div className='user_pass'>
-                                        <Field type='text' name='username' placeholder='Username' className='user_name' />
                                         <ErrorMessage name='username' component='div' className='error_message' />
+                                        <Field type='text' name='username' placeholder='Username' className='user_name' />
 
-                                        <Field type='password' name='password' placeholder='Password' maxLength={16} className='password' />
                                         <ErrorMessage name='password' component='div' className='error_message' />
+                                        <Field type='password' name='password' placeholder='Password' maxLength={16} className='password' />
                                     </div>
                                     <button type='submit' onChange={isSubmitting} className='sign_up_btn'>
                                         Sign up

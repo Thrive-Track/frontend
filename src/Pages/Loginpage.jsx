@@ -38,11 +38,11 @@ function Loginpage() {
                         {({ isSubmitting }) => (
                             <Form className='sign_in_form'>
                                 <div className='pass_email'>
-                                    <Field type='email' name='email' placeholder='Email' className='email' />
                                     <ErrorMessage name='email' component='div' className='error_message' />
+                                    <Field type='email' name='email' placeholder='Email' className='email' />
 
-                                    <Field type='password' name='password' placeholder='Password' maxLength={16} className='password' />
                                     <ErrorMessage name='password' component='div' className='error_message' />
+                                    <Field type='password' name='password' placeholder='Password' maxLength={16} className='password' />
                                 </div>
 
                                 <button type='submit' disabled={isSubmitting} className='sign_in_btn'>

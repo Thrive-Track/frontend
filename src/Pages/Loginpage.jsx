@@ -23,12 +23,12 @@ function Loginpage() {
 
   return (
     <>
-      <body className="body">
-        <div>
-          <img src="public\Resume-rafiki 1.png" className="login_image"></img>
+      <body>
+        <div className="image_box">
+          <img src="\Resume-rafiki 1.png"></img>
         </div>
         <div className="title1">
-          <h2>Welcome Back</h2>
+          <h>Welcome Back</h>
         </div>
         <div>
           <Formik
@@ -39,29 +39,29 @@ function Loginpage() {
             {({ isSubmitting }) => (
               <Form className="sign_in_form">
                 <div className="pass_email">
+                  <ErrorMessage
+                    name="email"
+                    component="div"
+                    className="error_message"
+                  />
                   <Field
                     type="email"
                     name="email"
                     placeholder="Email"
                     className="email"
                   />
+
                   <ErrorMessage
-                    name="email"
+                    name="password"
                     component="div"
                     className="error_message"
                   />
-
                   <Field
                     type="password"
                     name="password"
                     placeholder="Password"
                     maxLength={16}
                     className="password"
-                  />
-                  <ErrorMessage
-                    name="password"
-                    component="div"
-                    className="error_message"
                   />
                 </div>
 
@@ -75,23 +75,25 @@ function Loginpage() {
                 <div className="other_signIn">
                   <button type="submit" className="google_sign_in_btn">
                     Sign in with Google
+                    <img src="\google.png" className="google_icon"></img>
                   </button>
                   <button type="submit" className="facebook_sign_in_btn">
                     Sign in with Facebook
+                    <img src="\Vector.png" className="facebook_icon"></img>
                   </button>
                 </div>
                 <div className="forgot">
-                  <Link to={"/forgot password"} className="forgot">
+                  <a className="forgot" href="">
                     Forgot password?
-                  </Link>
+                  </a>
                 </div>
               </Form>
             )}
           </Formik>
         </div>
         <div className="go_to_sign_up">
-          <p className="paragraph">
-            Don't have an account? <Link to={"/sign up"}>Sign up</Link>
+          <p>
+            Don't have an account? <a href="">Sign up</a>
           </p>
         </div>
       </body>

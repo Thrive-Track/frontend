@@ -32,127 +32,69 @@ function Signup() {
     setSubmitting(false);
   };
 
-  return (
-    <>
-      <div>
-        <body className="body">
-          <div>
-            <img
-              src="public\Illustration - Scene Wireframe.png"
-              className="image_signup"
-            />
-          </div>
-          <div className="top_bar">
-            <h2 className="sigup_heading">Create Your Account</h2>
-          </div>
-          <div className="sign_up_form">
-            <Formik
-              initialValues={initialValues}
-              validationSchema={validationSchema}
-              onSubmit={handleSubmit}
-            >
-              {({ isSubmitting }) => (
-                <Form>
-                  <div className="name_email">
-                    <Field
-                      type="text"
-                      name="name"
-                      placeholder="Name"
-                      className="name input_button"
-                    />
-                    <ErrorMessage
-                      name="name"
-                      component="div"
-                      className="error_message"
-                    />
+    return (
+        <>
+            <div>
+                <body>
+                    <div className='image_box'>
+                        <img src='\Illustration - Scene Wireframe.png'></img>
+                    </div>
+                    <div className='top_bar'>
+                        <h>Create Your Account</h>
+                    </div>
+                    <div className='sign_up_form'>
+                        <Formik
+                            initialValues={initialValues}
+                            validationSchema={validationSchema}
+                            onSubmit={handleSubmit}
+                        >
+                            {({ isSubmitting }) => (
+                                <Form>
+                                    <div className='name_email'>
+                                        <ErrorMessage name='name' component='div' className='error_message' />
+                                        <Field type='text' name='name' placeholder='Name' className='name' />
 
-                    <Field
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-                      className="email input_button"
-                    />
-                    <ErrorMessage
-                      name="email"
-                      component="div"
-                      className="error_message"
-                    />
-                  </div>
-                  <div className="user_pass">
-                    <Field
-                      type="text"
-                      name="username"
-                      placeholder="Username"
-                      className="user_name input_button"
-                    />
-                    <ErrorMessage
-                      name="username"
-                      component="div"
-                      className="error_message"
-                    />
+                                        <ErrorMessage name='email' component='div' className='error_message' />
+                                        <Field type='email' name='email' placeholder='Email' className='email' />
+                                    </div>
+                                    <div className='user_pass'>
+                                        <ErrorMessage name='username' component='div' className='error_message' />
+                                        <Field type='text' name='username' placeholder='Username' className='user_name' />
 
-                    <Field
-                      type="password"
-                      name="password"
-                      placeholder="Password"
-                      maxLength={16}
-                      className="password input_button"
-                    />
-                    <ErrorMessage
-                      name="password"
-                      component="div"
-                      className="error_message"
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    onChange={isSubmitting}
-                    className="sign_up_btn"
-                  >
-                    Sign up
-                  </button>
-                  <div className="other_signUp">
-                    <button
-                      type="submit"
-                      className="google_sign_up_btn input_button"
-                    >
-                      Sign up with Google
-                      <img src="google.png" className="google_image" />
-                    </button>
+                                        <ErrorMessage name='password' component='div' className='error_message' />
+                                        <Field type='password' name='password' placeholder='Password' maxLength={16} className='password' />
+                                    </div>
+                                    <button type='submit' onChange={isSubmitting} className='sign_up_btn'>
+                                        Sign up
+                                    </button>
+                                    <div className='other_signUp'>
+                                        <button type='submit' className='google_sign_up_btn input_button'>
+                                            Sign up with Google
+                                            <img src='\google.png' className='google_icon'></img>
+                                        </button>
+                                        <button type='submit' className='facebook_sign_up_btn input_button'>
+                                            Sign up with Facebook
+                                            <img src='\Vector.png' className='facebook_icon'></img>
+                                        </button>
+                                    </div>
 
-                    <button
-                      type="submit"
-                      className="facebook_sign_up_btn input_button"
-                    >
-                      Sign up with Facebook
-                      <img
-                        src="Vector.png"
-                        className="google_image facebook_icon"
-                      />
-                    </button>
-                  </div>
-                </Form>
-              )}
-            </Formik>
-            <p className="sign_up">
-              By signing up, you are indicating you have read and agreed to
-              <br /> our
-              <Link className="link">Terms of Service</Link> and
-              <Link className="link">Privacy Policy</Link>
-            </p>
-          </div>
-          <div className="go_to_signIn">
-            <p>
-              Already have an account?
-              <Link to={"/sign in"} className="link">
-                Sign in
-              </Link>
-            </p>
-          </div>
-        </body>
-      </div>
-    </>
-  );
+                                </Form>
+                            )}
+                        </Formik>
+                        <p>
+                            By signing up, you are indicating you have read and agreed to our{' '}
+                            <a href=''>Terms of Service</a> and <a href=''>Privacy Policy</a>
+                        </p>
+                    </div>
+                    <div className='go_to_signIn'>
+                        <p>
+                            Already have an account? <a href=''>Sign in</a>
+                        </p>
+                    </div>
+                </body>
+            </div>
+        </>
+    );
 }
 
 export default Signup;

@@ -23,8 +23,8 @@ function Loginpage() {
     return (
         <>
             <body>
-                <div>
-                    <img src='public\Resume-rafiki 1.png'></img>
+                <div className='image_box'>
+                    <img src='\Resume-rafiki 1.png'></img>
                 </div>
                 <div className='title1'>
                     <h>Welcome Back</h>
@@ -51,9 +51,11 @@ function Loginpage() {
                                 <div className='other_signIn'>
                                     <button type='submit' className='google_sign_in_btn'>
                                         Sign in with Google
+                                        <img src='\google.png' className='google_icon'></img>
                                     </button>
                                     <button type='submit' className='facebook_sign_in_btn'>
                                         Sign in with Facebook
+                                        <img src='\Vector.png' className='facebook_icon'></img>
                                     </button>
                                 </div>
                                 <div className='forgot'>

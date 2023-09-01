@@ -36,8 +36,8 @@ function Signup() {
         <>
             <div>
                 <body>
-                    <div>
-                        <img src='public\Illustration - Scene Wireframe.png'></img>
+                    <div className='image_box'>
+                        <img src='\Illustration - Scene Wireframe.png'></img>
                     </div>
                     <div className='top_bar'>
                         <h>Create Your Account</h>
@@ -68,11 +68,13 @@ function Signup() {
                                         Sign up
                                     </button>
                                     <div className='other_signUp'>
-                                        <button type='submit' className='google_sign_up_btn'>
+                                        <button type='submit' className='google_sign_up_btn input_button'>
                                             Sign up with Google
+                                            <img src='\google.png' className='google_icon'></img>
                                         </button>
-                                        <button type='submit' className='facebook_sign_up_btn'>
+                                        <button type='submit' className='facebook_sign_up_btn input_button'>
                                             Sign up with Facebook
+                                            <img src='\Vector.png' className='facebook_icon'></img>
                                         </button>
                                     </div>
 

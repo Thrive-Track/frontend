@@ -1,4 +1,9 @@
-body {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,13 +97,13 @@ body {
   border-radius: 8px;
   background-color: white;
 }
-p {
+.paragraph {
   text-align: center;
 }
 .go_to_sign_up {
   margin-top: 48px;
 }
-img {
+.login_image {
   width: 480px;
   height: 420px;
 }

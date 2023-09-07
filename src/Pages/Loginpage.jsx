@@ -2,6 +2,7 @@ import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import './login.css';
+import { Link } from 'react-router-dom';
 
 const validationSchema = Yup.object().shape({
     email: Yup.string().email('Invalid email').required('Email is required'),
@@ -22,27 +23,30 @@ function Loginpage() {
 
     return (
         <>
-            <body>
-                <div className='image_box'>
-                    <img src='\Resume-rafiki 1.png'></img>
+            <body className='page-container1'>
+                <div className='login_image'>
+                    <img src='\Resume-rafiki 1.png' className='image2'></img>
                 </div>
-                <div className='title1'>
+                <div className='signin_header'>
                     <h>Welcome Back</h>
                 </div>
-                <div>
+                <div className='sign_in_form'>
                     <Formik
                         initialValues={initialValues}
                         validationSchema={validationSchema}
                         onSubmit={handleSubmit}
                     >
                         {({ isSubmitting }) => (
-                            <Form className='sign_in_form'>
+                            <Form>
                                 <div className='pass_email'>
-                                    <ErrorMessage name='email' component='div' className='error_message' />
-                                    <Field type='email' name='email' placeholder='Email' className='email' />
-
-                                    <ErrorMessage name='password' component='div' className='error_message' />
-                                    <Field type='password' name='password' placeholder='Password' maxLength={16} className='password' />
+                                    <div className='emailed'>
+                                        <ErrorMessage name='email' component='div' className='error_message' />
+                                        <Field type='email' name='email' placeholder='Email' className='email1' />
+                                    </div>
+                                    <div className='passcode'>
+                                        <ErrorMessage name='password' component='div' className='error_message' />
+                                        <Field type='password' name='password' placeholder='Password1' maxLength={16} className='password' />
+                                    </div>
                                 </div>
 
                                 <button type='submit' disabled={isSubmitting} className='sign_in_btn'>
@@ -59,7 +63,7 @@ function Loginpage() {
                                     </button>
                                 </div>
                                 <div className='forgot'>
-                                    <a className='forgot' href=''>Forgot password?</a>
+                                    <Link to={'/forgot password'}>Forgot password?</Link>
                                 </div>
 
                             </Form>
@@ -67,8 +71,8 @@ function Loginpage() {
                     </Formik>
                 </div>
                 <div className='go_to_sign_up'>
-                    <p>
-                        Don't have an account? <a href=''>Sign up</a>
+                    <p className='no_account'>
+                        Don't have an account? <Link to={'/signup'}>Sign up</Link>
                     </p>
                 </div>
             </body>

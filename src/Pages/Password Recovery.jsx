@@ -2,12 +2,13 @@ import React from "react";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import './Password Recovery.css';
+import { Link } from "react-router-dom";
 
 const validationSchema = Yup.object().shape({
   verificationCode: Yup.number().required('Verification Code is required'),
 });
 
-function Passrecover() {
+function PassRecover() {
   const initialValues = {
     verificationCode: '',
   };
@@ -20,15 +21,15 @@ function Passrecover() {
 
   return (
     <>
-      <body>
+      <body className="recover">
         <div>
-          <div className='title1'>
+          <div className='title3'>
             <h>Password Recovery</h>
           </div>
         </div>
 
         <div className="verificationCode_form">
-          <p>Enter Verification Code</p>
+          <p className="verify">Enter Verification Code</p>
           <Formik
             initialValues={initialValues}
             validationSchema={validationSchema}
@@ -39,7 +40,10 @@ function Passrecover() {
                 <ErrorMessage name="verificationCode" component="div" className="error_message" />
                 <Field type="number" name="verificationCode" placeholder="Verification Code" className="verify_code" />
 
-                <button type="submit" disabled={isSubmitting} className="next_btn">Next</button>
+                <Link to={"/create password"}>
+                  <button type="submit" disabled={isSubmitting} className="next_btn">Next</button>
+                </Link>
+
               </Form>
             )}
           </Formik>
@@ -49,4 +53,4 @@ function Passrecover() {
   );
 }
 
-export default Passrecover;
+export default PassRecover;

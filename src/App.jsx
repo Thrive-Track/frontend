@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       <div>
-        <Router>
-          <Signup />
-          <Routes path="/" exact />
-        </Router>
+
+        <Signup />
+
+
       </div>
     </>
   )

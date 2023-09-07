@@ -32,35 +32,38 @@ function CreatePassword() {
   return (
     <>
       <body>
-        <div className="box1">
-          <div className='title1'>
-            <h>Password Recovery</h>
+        <div className="body">
+          <div className="box2">
+            <div className='title2'>
+              <h className='heading1'>Password Recovery</h>
+            </div>
+            <div className="change_password_form">
+              <p className="enter">Enter Your New Password</p>
+              <p className="enter">Choose a password that can't be easily guessed</p>
+              <Formik
+                initialValues={initialValues}
+                validationSchema={validationSchema}
+                onSubmit={handleSubmit}
+              >
+                {({ isSubmitting }) => (
+                  <Form>
+                    <ErrorMessage name="newPassword" component="div" className="error_message0" />
+                    <Field type="password" name="newPassword" placeholder="Create New Password" className="new_password" />
+
+                    <ErrorMessage name="confirmPassword" component="div" className="error_message" />
+                    <Field type="password" name="confirmPassword" placeholder="Confirm New Password" className="confirm_password" />
+
+                    <button type="submit" disabled={isSubmitting} className="change_password">Change Password</button>
+                  </Form>
+                )}
+              </Formik>
+            </div>
           </div>
-          <div className="change_password_form">
-            <p>Enter Your New Password</p>
-            <p>Choose a password that can't be easily guessed</p>
-            <Formik
-              initialValues={initialValues}
-              validationSchema={validationSchema}
-              onSubmit={handleSubmit}
-            >
-              {({ isSubmitting }) => (
-                <Form>
-                  <ErrorMessage name="newPassword" component="div" className="error_message0" />
-                  <Field type="password" name="newPassword" placeholder="Create New Password" className="password" />
-
-                  <ErrorMessage name="confirmPassword" component="div" className="error_message" />
-                  <Field type="password" name="confirmPassword" placeholder="Confirm New Password" className="confirm_password" />
-
-                  <button type="submit" disabled={isSubmitting} className="change_password">Change Password</button>
-                </Form>
-              )}
-            </Formik>
+          <div className="createkey_img">
+            <img src="\Key-rafiki 1.png" className="createpassimg"></img>
           </div>
         </div>
-        <div className="image_box">
-          <img src="public\Key-rafiki 1.png"></img>
-        </div>
+
 
       </body>
     </>

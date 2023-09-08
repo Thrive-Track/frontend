@@ -1,19 +1,14 @@
 import React from "react";
-import Signup from "./Pages/SignUp";
-import { BrowserRouter as Router, Routes } from "react-router-dom";
-
+import LandingPage from "./components/LandingPage";
 
 function App() {
   return (
     <>
       <div>
-
-        <Signup />
-
-
+        <LandingPage />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

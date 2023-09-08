@@ -1,26 +1,26 @@
 import React from "react";
-import { Formik, Form, Field, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
-import './Create Password.css';
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import "./Create Password.css";
 
 const validationSchema = Yup.object().shape({
   newPassword: Yup.string()
-    .min(6, 'Password must be at least 6 characters')
-    .max(16, 'Password must not exceed 16 characters')
+    .min(6, "Password must be at least 6 characters")
+    .max(16, "Password must not exceed 16 characters")
     .matches(
       /^(?=.*?[A-Za-z])(?=.*?[0-9])(?=.*?[!@#$%^&*()_+])[A-Za-z0-9!@#$%^&*()_+]+$/,
-      'Password must include at least one letter, one number, and one special character'
+      "Password must include at least one letter, one number, and one special character"
     )
-    .required('New Password is required'),
+    .required("New Password is required"),
   confirmPassword: Yup.string()
-    .oneOf([Yup.ref('newPassword'), null], 'Passwords must match')
-    .required('Confirm New Password is required'),
+    .oneOf([Yup.ref("newPassword"), null], "Passwords must match")
+    .required("Confirm New Password is required"),
 });
 
 function CreatePassword() {
   const initialValues = {
-    newPassword: '',
-    confirmPassword: '',
+    newPassword: "",
+    confirmPassword: "",
   };
 
   const handleSubmit = (values, { setSubmitting }) => {

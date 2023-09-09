@@ -2,10 +2,8 @@ import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import './Signuppage.css';
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as Yup from "yup";
-import "./Signuppage.css";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+
 
 const validationSchema = Yup.object().shape({
     email: Yup.string().email('Invalid email').required('Email is required'),

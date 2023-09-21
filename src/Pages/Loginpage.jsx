@@ -45,7 +45,7 @@ function Loginpage() {
                                     </div>
                                     <div className='passcode'>
                                         <ErrorMessage name='password' component='div' className='error_message' />
-                                        <Field type='password' name='password' placeholder='Password1' maxLength={16} className='password' />
+                                        <Field type='password' name='password' placeholder='Password' maxLength={16} className='password1' />
                                     </div>
                                 </div>
 

@@ -7,6 +7,9 @@ import instagram from "../../assets/footer_images/instagram.png";
 import linkedin from "../../assets/footer_images/Linkedin.png";
 import logo from "../../assets/footer_images/Logo.png";
 import twitter from "../../assets/footer_images/tweetter.png";
+import language from "../../assets/footer_images/language.png";
+import doubleArrow from "../../assets/footer_images/Icons.png";
+import vectorImage from "../../assets/footer_images/Vector 3.png";
 
 function Footer() {
   return (
@@ -47,7 +50,7 @@ function Footer() {
                 <Link>Help Center</Link>
               </li>
               <li>
-                <Link>FAQs</Link>
+                <Link to={"faqs"}>FAQs</Link>
               </li>
               <li>
                 <Link>Inspiration Hub</Link>
@@ -76,7 +79,7 @@ function Footer() {
                 <h4>Company</h4>
               </li>
               <li>
-                <Link>About Us</Link>
+                <Link to={"aboutus"}>About Us</Link>
               </li>
             </ul>
           </div>
@@ -93,11 +96,11 @@ function Footer() {
         <ul>
           <li>Terms </li>
           <li>
-            <img src="Vector 3.png" />
+            <img src={vectorImage} alt="Vector icon" />
           </li>
           <li>Privacy </li>
           <li>
-            <img src="Vector 3.png" />
+            <img src={vectorImage} alt="Vector icon" />
           </li>
           <li>Security </li>
           <li>@ThriveTrack</li>
@@ -105,11 +108,15 @@ function Footer() {
         <div className="last_terms">
           <ul>
             <li>
-              <img src="language.png" />
+              <img src={language} alt="globe icon" />
             </li>
             <li>English</li>
             <li>
-              <img src="Icons.png" className="last_terms_icon" />
+              <img
+                src={doubleArrow}
+                alt="double arrow icon"
+                className="last_terms_icon"
+              />
             </li>
           </ul>
         </div>

@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./Faqs.css";
+import arrow from "../../assets/accordion_image/keyboard_arrow_down.png";
 
 export default function Faqs(props) {
   const [setActive, setActiveState] = useState("");
@@ -25,7 +26,7 @@ export default function Faqs(props) {
               onClick={handleToggle}
             >
               <h4 className="faq_question">{props.question}</h4>
-              <img src="keyboard_arrow_down.png" className={`${setRotate}}`} />
+              <img src={arrow} alt="arrow button" className={`${setRotate}}`} />
             </button>
             <div
               ref={content}

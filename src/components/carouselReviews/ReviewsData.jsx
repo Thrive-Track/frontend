@@ -1,4 +1,5 @@
 import React from "react";
+import ratings from "../../assets/carousel_images/Frame 143.png";
 
 export default function ReviewsData(props) {
   return (
@@ -16,7 +17,11 @@ export default function ReviewsData(props) {
             <p>{props.review}</p>
           </div>
           <div className="ratings">
-            <img src="Frame 143.png" className="first_ratings_image" />
+            <img
+              src={ratings}
+              alt="ratings icon"
+              className="first_ratings_image"
+            />
           </div>
         </div>
       </div>

@@ -31,19 +31,7 @@
   flex-direction: row;
   color: #545454;
 }
-/* .icons {
-  width: 39px;
-  height: 39px;
-  background: #fff;
-  border-radius: 78.141px;
-  margin-top: 100px;
-  padding: 7.814px;
-}
-.onboarding_btn {
-  display: flex;
-  gap: 19px;
-  padding-top: 18px;
-} */
+
 .profile {
   display: flex;
   justify-content: center;
@@ -65,7 +53,7 @@
   padding: 17.067px 25.601px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 25.601px;
+  gap: 22.601px;
   flex: 1 0 0;
 }
 

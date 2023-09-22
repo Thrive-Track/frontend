@@ -1,0 +1,32 @@
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  user-select: none;
+}
+:root {
+  --color: #4ead1f;
+}
+/* .progress_input{
+
+} */
+
+.circle_bacground {
+  fill: none;
+  stroke: #ddd;
+}
+.circle_progress {
+  fill: none;
+  stroke: #4ead1f;
+}
+.circle_text {
+  font-size: 30px;
+  font-weight: 400;
+  color: #4ead1f;
+  font-family: "Montserrat", sans-serif;
+}
+.circle {
+  margin-right: 100px;
+}

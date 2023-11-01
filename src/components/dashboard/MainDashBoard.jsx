@@ -12,7 +12,7 @@ import thrive from "../../assets/dashboard_images/thriveframe.png";
 import framea from "../../assets/dashboard_images/framea.png";
 import frameb from "../../assets/dashboard_images/frameb.png";
 import framec from "../../assets/dashboard_images/framec.png";
-import inactiveIcons from "../../assets/dashboard_images/inactive_icons.png";
+import inactiveIcons from "../../assets/dashboard_images/inactive_Icons.png";
 import inactiveIcon from "../../assets/dashboard_images/the-icon.png";
 import reminder from "../../assets/dashboard_images/reminder.png";
 import groups from "../../assets/dashboard_images/groups.png";

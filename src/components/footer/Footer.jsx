@@ -79,7 +79,7 @@ function Footer() {
                 <h4>Company</h4>
               </li>
               <li>
-                <Link to={"aboutus"}>About Us</Link>
+                <Link to={"about us"}>About Us</Link>
               </li>
             </ul>
           </div>

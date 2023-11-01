@@ -66,9 +66,9 @@ function Landingpage() {
           height: "832",
         }}
       >
-        <LeftSideBar />
-        {/* <MainDashBoard /> */}
-        <Support />
+        {/* <LeftSideBar />
+        <MainDashBoard />
+        <Support /> */}
       </div>
     </>
   );

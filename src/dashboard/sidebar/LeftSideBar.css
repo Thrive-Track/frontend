@@ -109,10 +109,14 @@
   box-sizing: border-box;
 }
 .left_side_bar_container {
+  position: relative;
+  left: 10px;
   display: flex;
   padding: 36px 52px 52px 52px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+
   align-self: stretch;
   width: 273px;
   height: 832px;
@@ -214,4 +218,7 @@
   align-items: flex-start;
   gap: 36px;
   align-self: stretch;
+}
+.dashboard_menu_link:hover.active {
+  background-color: #4ead1f;
 }

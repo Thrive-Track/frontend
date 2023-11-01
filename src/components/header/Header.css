@@ -18,8 +18,8 @@
   overflow: auto;
   position: fixed;
   box-shadow: 0 0 2px 0 #000000;
-  padding: 0px 96px 0px 96px;
-  z-index: 1200;
+  padding: 0px 96px 0px 90px;
+  z-index: 1050;
 }
 .resources {
   outline: none;

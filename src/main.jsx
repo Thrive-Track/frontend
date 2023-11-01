@@ -7,6 +7,8 @@ import Loginpage from "./Pages/Loginpage.jsx";
 import ForgotPassword from "./Pages/forgot password page.jsx";
 import PassRecover from "./Pages/Password Recovery.jsx";
 import CreatePassword from "./Pages/Create New Password.jsx";
+import AboutUs from "./components/about_us/AboutUs.jsx";
+import MainDashboard from "./dashboard/MainDashBoard.jsx";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +46,14 @@ const router = createBrowserRouter([
   {
     path: "/create password",
     element: <CreatePassword />,
+  },
+  {
+    path: "/about us",
+    element: <AboutUs />,
+  },
+  {
+    path: "dashboard",
+    element: <MainDashboard />,
   },
 ]);
 

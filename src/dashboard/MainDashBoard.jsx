@@ -27,7 +27,7 @@ export default function MainDashBoard() {
         <div className="dashboard_container">
           <div className="user_profile">
             <div className="__profile">
-              <h5>Hello Beston!!!</h5>
+              <h5>Hello Sylvester!!!</h5>
               <p>Welcome Back!</p>
             </div>
 
@@ -46,8 +46,8 @@ export default function MainDashBoard() {
                 <img src={dummy} alt="dummy icon" className="dummy_image" />
               </div>
               <div className="user_name_mail">
-                <h5>Beston Keghtor</h5>
-                <p>bestonkeghtor@gmail.com</p>
+                <h5>Sylvester Bamidele</h5>
+                <p>sylbam@gmail.com</p>
               </div>
               <img src={expand} alt="expand more icon" className="arrow_btn" />
             </div>

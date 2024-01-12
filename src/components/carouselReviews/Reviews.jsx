@@ -1,4 +1,3 @@
-import React from "react";
 import ReviewsData from "./ReviewsData";
 import "./Reviews.css";
 import Carousel from "react-multi-carousel";
@@ -58,7 +57,6 @@ function Reviews() {
         '"Wow! My day is more fulfilled than ever before. Every daily task is achievable with ThriveTrack. I can proudly say that that with this tool, I am ahead"',
     },
     {
-      id: 4,
       image: pretty,
       alt: "reviewer's image",
       name: "Sandra kanu",
@@ -87,6 +85,7 @@ function Reviews() {
   ];
   const reviews = data.map((item) => (
     <ReviewsData
+      key={item.id}
       image={item.image}
       name={item.name}
       occupation={item.occupation}
@@ -98,6 +97,7 @@ function Reviews() {
       <div className="reviews_heading">
         <p>What Users Are Saying</p>
       </div>
+
       <Carousel
         swipeable={false}
         draggable={false}
@@ -116,10 +116,10 @@ function Reviews() {
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
       >
-        {/* <div>Item 1</div>
-      <div>Item 2</div>
+        {/*<div>Item 1</div>
+       <div>Item 2</div>
       <div>Item 3</div>
-      <div>Item 4</div> */}
+      <div>Item 4</div>  */}
         {reviews}
       </Carousel>
     </div>

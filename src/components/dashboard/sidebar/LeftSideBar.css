@@ -12,7 +12,7 @@
   align-items: flex-start;
   gap: 76px;
   background: rgba(229, 229, 229, 0.25);
-  padding: 36px 52px 52px 52px;
+  /* padding: 36px 52px 52px 52px; */
 }
 .logo_wrapper {
   display: flex;
@@ -52,8 +52,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 36px;
-  flex: 1 0 0;
-  align-self: stretch;
+  /* flex: 1 0 0;
+  align-self: stretch; */
 }
 .dashboard {
   width: 169px;

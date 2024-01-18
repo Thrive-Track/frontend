@@ -5,7 +5,7 @@
 }
 .dashboard_container {
   display: flex;
-  padding: 0px 52px 52px 32px;
+  /* padding: 0px 52px 52px 32px; */
   flex-direction: column;
   align-items: flex-end;
   flex: 1 0 0;
@@ -15,7 +15,7 @@
 /*user profile welcome dashboard*/
 .user_profile {
   display: flex;
-  padding: 36px 0px 24px 0px;
+  /* padding: 36px 0px 24px 0px; */
   align-items: flex-start;
   gap: 156px;
   align-self: stretch;
@@ -34,7 +34,7 @@
   line-height: normal;
   font-style: normal;
   text-align: center;
-  padding-left: 36px;
+  /* padding-left: 36px; */
 }
 .__profile h5 {
   color: var(--primary-black, #1c1917);
@@ -55,7 +55,7 @@
 .dummy_image {
   position: relative;
   bottom: 7px;
-  margin-left: 28px;
+  /* margin-left: 28px; */
 }
 .user_name_mail {
   display: flex;
@@ -92,7 +92,6 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 36px;
-  align-self: stretch;
 }
 /* first box*/
 .task_board_item1 {
@@ -172,7 +171,7 @@
   align-items: flex-start;
   gap: 42px;
   flex: 1 0 0;
-  align-self: stretch;
+  /* align-self: stretch; */
 }
 .todays_task1 {
   display: flex;
@@ -195,7 +194,7 @@
   align-items: center;
   gap: 76px;
   flex: 1 0 0;
-  align-self: stretch;
+  /* align-self: stretch; */
   width: 658px;
   height: 62px;
 }
@@ -345,7 +344,7 @@
   margin-right: 100px;
   padding-right: 100px;
   position: relative;
-  right: 46px;
+  /* right: 46px; */
   bottom: 27px;
 }
 .task_schedules_container {
@@ -400,7 +399,7 @@
   flex-direction: column;
   align-items: flex-start;
   flex: 1 0 0;
-  align-self: stretch;
+  /* align-self: stretch; */
 }
 .calendar {
   width: 153px;

@@ -48,8 +48,8 @@
   height: 30px;
   padding: 18px;
   border-radius: 5.512px;
-  border: 1px solid var(--light-black, #545454);
-  color: var(--light-black, #545454);
+  border: 1px solid #545454;
+  color: #545454;
   font-family: " Montserrat" sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -66,8 +66,8 @@
   height: 30px;
   padding: 18px;
   border-radius: 5.512px;
-  border: 1px solid var(--light-black, #545454);
-  color: var(--light-black, #545454);
+  border: 1px solid #545454;
+  color: #545454;
   font-family: "Montserrat" sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -106,7 +106,7 @@
   border-radius: 8px;
   gap: 11.023px;
   flex: 1 0 0;
-  color: var(--light-black, #545454);
+  color: #545454;
   background: white;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
@@ -129,7 +129,7 @@
   border-radius: 8px;
   gap: 11.023px;
   flex: 1 0 0;
-  color: var(--light-black, #545454);
+  color: #545454;
   background: white;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
@@ -141,7 +141,7 @@
   height: 30px;
   padding: 18px;
   border-radius: 5.512px;
-  border: 1px solid var(--light-black, #545454);
+  border: 1px solid #545454;
 }
 .go_to_sign_up {
   margin-top: 48px;

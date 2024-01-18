@@ -12,7 +12,7 @@ import thrive from "../../assets/dashboard_images/thriveframe.png";
 import framea from "../../assets/dashboard_images/framea.png";
 import frameb from "../../assets/dashboard_images/frameb.png";
 import framec from "../../assets/dashboard_images/framec.png";
-import inactiveIcons from "../../assets/dashboard_images/inactive_Icons.png";
+// import inactiveIcons from "../../assets/dashboard_images/inactive_Icons.png";
 import inactiveIcon from "../../assets/dashboard_images/the-icon.png";
 import reminder from "../../assets/dashboard_images/reminder.png";
 import groups from "../../assets/dashboard_images/groups.png";
@@ -79,7 +79,7 @@ export default function MainDashBoard() {
                 <div className="todays_task">
                   <div className="todays_task1">
                     <div>
-                      <img src={inactiveIcons} alt="icon" />
+                      <img src="calendar_icon.png" alt="icon" />
                     </div>
                     <div className="time_task_schedule">
                       <div className="time_task">

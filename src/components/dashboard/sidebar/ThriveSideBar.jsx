@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../../../assets/dashboard_images/Logo.png";
 import add from "../../../assets/dashboard_images/add.png";
 import upgrade from "../../../assets/dashboard_images/grass.png";
-import "./ThriveSidebar.css";
+import "./ThriveSideBar.css";
 const ThriveSideBar = () => {
   return (
     <>

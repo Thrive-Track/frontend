@@ -1,0 +1,90 @@
+.task_board_item2 {
+  display: flex;
+  flex-direction: column;
+}
+.project_items {
+  display: flex;
+  gap: 23px;
+}
+.project_details {
+  width: 230px;
+  height: 184px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  gap: 25px;
+  padding-left: 5px;
+}
+.logo_icon {
+  width: 44px;
+  height: 44px;
+}
+.task_desc {
+  display: flex;
+  gap: 6px;
+}
+.progress_time {
+  display: flex;
+  gap: 40px;
+}
+.task_board_item3 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.today_task {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.today_task1 {
+  display: flex;
+  flex-direction: row;
+}
+.time_task_schedule {
+  display: flex;
+  align-items: center;
+
+  width: 738px;
+  height: 94px;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  padding: 16px;
+}
+.time_task {
+  display: flex;
+  gap: 24px;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 24px;
+  font-size: 14px;
+}
+.task_schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.reminder {
+  display: flex;
+  margin-left: 240px;
+  width: 109px;
+  height: 30px;
+  background-color: #e5e5e5;
+  color: #4ead1f;
+  align-items: center;
+  justify-content: center;
+}
+.rem_image {
+  width: 17.75px;
+  height: 16.5px;
+}
+.projects_heading {
+  font-size: 18px;
+}

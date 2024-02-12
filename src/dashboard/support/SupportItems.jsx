@@ -66,8 +66,8 @@ function SupportItems() {
     <>
       {supportList.map((support) => {
         return (
-          <div className="support_items_container">
-            <div className="support_items_wrapper" key={support.id}>
+          <div className="support_items_container" key={support.id}>
+            <div className="support_items_wrapper">
               <div className="support_items">
                 <img src={support.image} />
                 <h5>{support.heading}</h5>

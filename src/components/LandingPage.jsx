@@ -2,11 +2,14 @@
 import Header from "./header/Header";
 import HomePage from "./homepage/HomePage";
 import Footer from "./footer/Footer";
-// import LeftSideBar from "../dashboard/sidebar/LeftSideBar";
 // import MainDashBoard from "../dashboard/MainDashBoard";
 import FaqHeader from "./accordion/FaqHeader";
 import Faqs from "./accordion/Faqs";
 import DownloadSection from "./DownloadSection";
+import Dashboard from "./dashboard/mydashboard/Dashboard.jsx";
+// import ThriveSideBar from "./dashboard/sidebar/ThriveSideBar";
+// import TopBar from "./dashboard/topbar/TopBar";
+// import Dashboard from "./dashboard/FirstDashboard.jsx/Taskboard";
 // import Support from "../dashboard/support/Support";
 
 function Landingpage() {
@@ -66,9 +69,12 @@ function Landingpage() {
           height: "832",
         }}
       >
-        {/* <LeftSideBar /> */}
         {/* <MainDashBoard /> */}
         {/* <Support /> */}
+      </div>
+
+      <div>
+        <Dashboard />
       </div>
     </>
   );

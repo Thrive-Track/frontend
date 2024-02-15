@@ -6,7 +6,7 @@ import Footer from "./footer/Footer";
 import FaqHeader from "./accordion/FaqHeader";
 import Faqs from "./accordion/Faqs";
 import DownloadSection from "./DownloadSection";
-import Dashboard from "./dashboard/mydashboard/Dashboard.jsx";
+// import Dashboard from "./dashboard/mydashboard/Dashboard.jsx";
 // import ThriveSideBar from "./dashboard/sidebar/ThriveSideBar";
 // import TopBar from "./dashboard/topbar/TopBar";
 // import Dashboard from "./dashboard/FirstDashboard.jsx/Taskboard";
@@ -73,9 +73,9 @@ function Landingpage() {
         {/* <Support /> */}
       </div>
 
-      <div>
+      {/* <div>
         <Dashboard />
-      </div>
+      </div> */}
     </>
   );
 }

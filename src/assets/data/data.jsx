@@ -13,7 +13,7 @@ import framec from "../../assets/dashboard_images/framec.png";
 //images for project component
 import framed from "../../assets/project_images/framed.png";
 import teampics from "../../assets/project_images/frameE.png";
-import ProgressBar from "../../components/dashboard/mydashboard/progressbar/progressbar";
+import ProgressBar from "../../components/dashboard/progressbar/ProgressBar";
 //Tasks today images
 import hamburger from "../../assets/dashboard_images/calendar_icon.png";
 import notification from "../../assets/dashboard_images/reminder.png";

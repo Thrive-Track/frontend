@@ -55,21 +55,18 @@
   align-self: stretch;
 }
 .vision {
-  background: url("Shutterstock.png");
-  width: 1088px;
-  height: 551px;
+  display: inline-block;
+  position: relative;
 }
 .vision h3 {
-  /* position: relative;
-  bottom: 300px; */
+  position: absolute;
+  margin-top: -300px;
   color: #fff;
-  /* left: 750px; */
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 50px;
   text-align: center;
-  margin-top: 250px;
-  margin-left: 600px;
+  white-space: nowrap;
 }
 .vision_text {
   display: flex;
@@ -98,7 +95,8 @@
   align-self: stretch;
 }
 .why_choose_us {
-  background: url("whychooseus.png");
+  display: inline-block;
+  position: relative;
   width: 1088px;
   height: 475px;
   display: flex;
@@ -107,6 +105,7 @@
   justify-content: center;
 }
 .why_choose_us h3 {
+  position: absolute;
   color: #fff;
   text-align: center;
   font-family: "Montserrat", sans-serif;

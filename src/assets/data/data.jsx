@@ -19,6 +19,10 @@ import hamburger from "../../assets/dashboard_images/calendar_icon.png";
 import notification from "../../assets/dashboard_images/reminder.png";
 //Task Schedule Data
 import team from "../../assets/dashboard_images/groups.png";
+import electric from "../../assets/homepage_images/electric_bolt.png";
+import account from "../../assets/homepage_images/account_tree.png";
+import connect from "../../assets/homepage_images/connect.png";
+
 export const sideBarData = [
   {
     id: 1,
@@ -166,5 +170,28 @@ export const taskScheduleData = [
     image: team,
     header: "Meet with devs",
     location: "Online 03:00 pm",
+  },
+];
+export const infoData = [
+  {
+    id: 1,
+    image: electric,
+    altUrl: "Icon",
+    header: "Elevate your productivity",
+    text: "Supercharge your efficiency and stay focused with powerful features.",
+  },
+  {
+    id: 2,
+    image: account,
+    altUrl: "Icon",
+    header: "Accessible anywhere",
+    text: " Access your tasks from any device, whether at your desk or on the go.",
+  },
+  {
+    id: 3,
+    image: connect,
+    altUrl: "Icon",
+    header: "Seamless collaboration ",
+    text: " Work with team members, delegate tasks and share progress reports.",
   },
 ];

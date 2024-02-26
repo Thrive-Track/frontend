@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.top_bar_container {
+  height: 105px;
+  width: 923px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 40px; */
+  padding: 10px;
+}
+/* .welcome {
+  margin-left: -50px;
+} */
+.welcome h4 {
+  font-size: 20px;
+  color: #1c1917;
+  white-space: nowrap;
+}
+.welcome p {
+  font-size: 14px;
+  color: #545454;
+}
+.search_bar {
+  width: 396px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  padding-left: 50px;
+  margin-left: -50px;
+}
+.search_btn {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  left: 25px;
+  /* top: 10px; */
+}
+.invite_btn {
+  border-radius: 6px;
+  border: 1px solid var(--Green, #4ead1f);
+  background: #fff;
+  height: 45px;
+  width: 151px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 4px;
+  color: #1c1917;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: normal;
+  white-space: nowrap;
+}
+.bell_icon {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+.image {
+  width: 33.75px;
+  height: 33.75px;
+  margin-left: -30px;
+  margin-right: -50px;
+}
+.arrow_btn {
+  width: 20px;
+  height: 20px;
+  margin-right: -50px;
+}

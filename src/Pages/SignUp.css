@@ -47,21 +47,33 @@
   display: flex;
   height: 30px;
   width: 300px;
+  padding: 18px;
+  border-radius: 5.512px;
+  border: 1px solid #545454;
 }
 .email {
   display: flex;
   height: 30px;
   width: 300px;
+  padding: 18px;
+  border-radius: 5.512px;
+  border: 1px solid #545454;
 }
 .user_name {
   display: flex;
   height: 30px;
   width: 300px;
+  padding: 18px;
+  border-radius: 5.512px;
+  border: 1px solid #545454;
 }
 .password {
   display: flex;
   height: 30px;
   width: 300px;
+  padding: 18px;
+  border-radius: 5.512px;
+  border: 1px solid #545454;
 }
 .sign_up_btn {
   display: flex;
@@ -74,6 +86,7 @@
   width: 638px;
   height: 30px;
   padding: 18px 20px;
+  border: none;
 }
 .other_signUp {
   display: flex;
@@ -92,13 +105,16 @@
   border-radius: 8px;
   gap: 11.023px;
   flex: 1 0 0;
-  color: var(--light-black, #545454);
+  color: #545454;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   border-radius: 5.512px;
   white-space: nowrap;
+  padding: 18px;
+  border-radius: 5.512px;
+  border: 1px solid #545454;
 }
 .facebook_sign_up_btn {
   display: flex;
@@ -111,11 +127,14 @@
   flex: 1 0 0;
   color: var(--light-black, #545454);
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   border-radius: 5.512px;
   white-space: nowrap;
+  padding: 18px;
+  border-radius: 5.512px;
+  border: 1px solid var(--light-black, #545454);
 }
 .go_to_signIn {
   margin-top: 48px;
@@ -173,4 +192,5 @@
 }
 .signed {
   text-align: center;
+  margin-top: -50px;
 }

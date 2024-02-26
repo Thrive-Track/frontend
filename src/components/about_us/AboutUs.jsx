@@ -4,6 +4,8 @@ import colleagues from "../../assets/about_us_images/colleagues.png";
 import TeamAlbum from "./TeamAlbum";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
+import shutter from "../../assets/about_us_images/Shutterstock.png";
+import chooseus from "../../assets/about_us_images/whychooseus.png";
 
 function AboutUs() {
   return (
@@ -42,6 +44,7 @@ function AboutUs() {
         </p>
       </div>
       <div className="our_vision">
+        <img src={shutter} alt="A man with a vision" />
         <div className="vision">
           <h3>Our Vision</h3>
         </div>
@@ -59,6 +62,7 @@ function AboutUs() {
       </div>
       <div className="why_choose_us_wrapper">
         <div className="why_choose_us">
+          <img src={chooseus} alt="a group of people" />
           <h3>
             Why Choose
             <br /> Us

@@ -13,13 +13,14 @@
   align-items: center;
   flex-direction: row;
   height: 74px;
-  background-color: white;
   width: 100%;
-  overflow: auto;
+  background-color: #fff;
+  /* overflow: auto; */
   position: fixed;
   box-shadow: 0 0 2px 0 #000000;
-  padding: 0px 96px 0px 90px;
+  /* padding: 0px 96px 0px 90px; */
   z-index: 1050;
+  margin-left: -30px;
 }
 .resources {
   outline: none;

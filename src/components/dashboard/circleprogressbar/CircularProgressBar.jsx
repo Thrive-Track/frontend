@@ -1,5 +1,5 @@
 import React from "react";
-import "./CircularprogressBar.css";
+import "./CircularProgressBar.css";
 
 const CircularProgressBar = ({ percentage, circleWidth }) => {
   const radius = 64;
